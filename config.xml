@@ -18,6 +18,7 @@
 	
 	<!-- what version of PhoneGap to build for -->
 	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="orientation"     value="portrait" />
 	
 	<!-- core plugins, include only what is necessary for app -->
 	<!-- https://build.phonegap.com/plugins/core/ -->
