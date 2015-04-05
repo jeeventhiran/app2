@@ -19,6 +19,9 @@
 	<!-- what version of PhoneGap to build for -->
 	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="orientation"     value="portrait" />
+	<preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="5000" />
 	
 	<!-- core plugins, include only what is necessary for app -->
 	<!-- https://build.phonegap.com/plugins/core/ -->
