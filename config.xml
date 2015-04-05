@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id          = "com.mymaze.app"
+        version     = "1.0.0" >
+
+    <name>My Maze</name>
+
+    <description>
+        My Maze:  maze game using HTML Canvas and a lot of JavaScript!
+    </description>
+
+    <author  
+	email="jeeven_jack@yahoo.com">
+        Jeeven Thiran
+    </author>
+	
+	<!-- what version of PhoneGap to build for -->
+	<preference name="phonegap-version" value="3.6.5" />
+	
+	<!-- core plugins, include only what is necessary for app -->
+	<!-- https://build.phonegap.com/plugins/core/ -->
+	<!-- http://docs.phonegap.com/en/3.5.0/cordova_plugins_pluginapis.md.html -->
+	<!-- must include a link to every API that you app needs -->
+	<gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+	<gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+	<!-- Fix iOS 7+ status bar issues! -->
+	<gap:plugin name="org.apache.cordova.statusbar" />
+	
+	<!-- what platforms to build for -->
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<!-- Default PhoneGap Icon, include in root folder of App -->
+	<icon src="icon.png"/> 
+
+</widget>

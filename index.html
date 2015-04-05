@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Maze Game with Accelerometer</title>
+        <link rel="stylesheet" type="text/css" href="javascript/jquery.mobile-1.4.5.min.css">
+        <script type="text/javascript" src="phonegap.js"></script>
+		<script type="text/javascript" src="javascript/jquery-2.1.1.min.js"></script>
+    	<script type="text/javascript" src="javascript/jquery.mobile-1.4.5.min.js"></script>
+        
+        <!-- Your JavaScript /CSS MUST be last for this to work properly -->
+        <link rel="stylesheet" type="text/css" href="css/assignment09.css">
+        <script type="text/javascript" src="javascript/assignment09.js"></script>
+    </head>
+	<body>
+        <br />
+        <div class="container">
+            <canvas id="mazeCanvas" class="myCanvas" style="z-index:1;" width="327" height="507"></canvas>
+            <canvas id="marbleCanvas" class="myCanvas" style="z-index:2;" width="327" height="507"></canvas>
+        </div>
+        <div align="center">
+            <button onClick="startGame();" data-inline="true">Start It!</button>&nbsp;&nbsp;<button onClick="endGame();" data-inline="true">Close</button>
+        </div>
+    </body>
+</html>
